@@ -47,7 +47,7 @@ void findContours(InputOutputArray image, OutputArrayOfArrays contours, OutputAr
 '''
 
 # 畫出輪廓
-cv2.drawContours(imgA, contours, 0, (255, 0, 0), 3)  # -1:all contours
+cv2.drawContours(imgA, contours, 0, (255, 0, 0), 5)  # -1:all contours
 '''
 void drawContours(InputOutputArray image, InputArrayOfArrays contours, int contourIdx, const Scalar& color, int thickness=1, int lineType=8, InputArray hierarchy=noArray(), int maxLevel=INT_MAX, Point offset=Point())
 → image(img_0)：輸入輸出圖，會將輪廓畫在此影像上。
@@ -148,7 +148,7 @@ Rect boundingRect(InputArray points)
 * 返回包覆輸入資訊的最小正矩形。
 '''
 
-cv2.rectangle(originalImage, (x, y), (x + w, y + h), (0, 255, 0), 2)
+cv2.rectangle(originalImage, (x, y), (x + w, y + h), (0, 255, 0), 5)
 '''
 void rectangle(Mat& img, Point pt1, Point pt2, const Scalar& color, int thickness=1, int lineType=8, int shift=0)
 → img(originalImage)：輸入圖，矩形會畫在上面。
@@ -171,7 +171,7 @@ box = cv2.boxPoints(rect)
 
 # 轉換為整數，還是不太懂int0，網路上說int0=intp（？
 box = np.int0(box)
-cv2.drawContours(originalImage, [box], 0, (0, 0, 255), 2)
+cv2.drawContours(originalImage, [box], 0, (0, 0, 255), 5)
 
 # 擬合橢圓的最小外接矩形
 ellipse = cv2.fitEllipse(cntb)
@@ -184,7 +184,7 @@ fitEllipse回傳5個值
 → theta : rotation angle
 '''
 
-cv2.ellipse(imgB, ellipse, (255, 0, 255), 2)
+cv2.ellipse(imgB, ellipse, (255, 0, 255), 5)
 '''
 void ellipse(Mat& img, Point center, Size axes, double angle, double startAngle, double endAngle, const Scalar& color, int thickness=1, int lineType=8, int shift=0)
 → img(imgB)：輸入圖，橢圓會畫在上面。
@@ -208,7 +208,7 @@ void minEnclosingCircle(InputArray points, OutputPoint2f& center, Outputfloat& r
 '''
 center = (int(x), int(y))
 radius = int(radius)
-cv2.circle(imgB, center, radius, (0, 255, 255), 2)
+cv2.circle(imgB, center, radius, (0, 255, 255), 5)
 
 # 畫直線擬合
 rows, cols = imgC.shape[:2]
@@ -226,14 +226,14 @@ void fitLine(InputArray points, OutputArray line, int distType, double param, do
 lefty = int((-x * vy / vx) + y)
 righty = int(((cols - x) * vy / vx) + y)
 
-cv2.line(imgC, (cols - 1, righty), (0, lefty), (255, 255, 0), 2)
+cv2.line(imgC, (cols - 1, righty), (0, lefty), (255, 255, 0), 5)
 '''
 void line(Mat& img, Point pt1, Point pt2, const Scalar& color, int thickness=1, int lineType=8, int shift=0)
 → img(imgC)：輸入圖，線會畫在上面。
 → pt1(cols - 1, righty)：線的起點。
 → pt2(0, lefty)：線的終點。
 → color(255, 255, 0)：線的顏色。
-→ thickness(2)：線的厚度。
+→ thickness(5)：線的厚度。
 → lineType(*)：通道型態，可輸入8、4、CV_AA： 8->8通道連結。 4->4通道連結。 CV_AA->消除鋸齒(antialiased line)，消除顯示器畫面線邊緣的凹凸鋸齒。
 '''
 
