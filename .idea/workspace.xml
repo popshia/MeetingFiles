@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b78bb0-9d0b-4377-b8c2-da49cebf261c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/popshia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/popshia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContoursAndConvexHul.py" beforeDir="false" afterPath="$PROJECT_DIR$/ContoursAndConvexHul.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarloPi.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarloPi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectTracking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ContoursAndConvexHul">
+  <component name="RunManager" selected="Python.ObjectTracking">
     <configuration name="ContoursAndConvexHul" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MeetingFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ContoursAndConvexHul" />
         <item itemvalue="Python.ObjectTracking" />
+        <item itemvalue="Python.ContoursAndConvexHul" />
         <item itemvalue="Python.pi" />
       </list>
     </recent_temporary>
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566917457775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update line thick">
+      <created>1566919170473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566919170473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +179,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update code style" />
     <MESSAGE value="fix opbjectTracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix opbjectTracking" />
+    <MESSAGE value="update line thick" />
+    <option name="LAST_COMMIT_MESSAGE" value="update line thick" />
   </component>
 </project>

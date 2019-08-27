@@ -2,7 +2,9 @@
   <dictionary name="popshia">
     <words>
       <w>cntb</w>
+      <w>imshow</w>
       <w>ksize</w>
+      <w>linspace</w>
       <w>maxval</w>
       <w>retr</w>
       <w>sqrt</w>

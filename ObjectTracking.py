@@ -14,8 +14,8 @@ Green = np.uint8([[[0, 255, 0]]])
 hsv_Green = cv2.cvtColor(Green, cv2.COLOR_BGR2HSV)
 print(hsv_Green)
 
-# ret = cap.set(3, 640)  # Default is 640X480
-ret = cap.set(4, 480)  # change to 320X240
+ret = cap.set(3, 640)  # Default is 640X480
+# ret = cap.set(4, 480)  # change to 320X240
 
 '''
 cap.set(propId,value)
