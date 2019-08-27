@@ -15,6 +15,7 @@ print (hsv_Green)
  
 ret = cap.set(3,640)             ##Default is 640X480
 ret = cap.set(4,480)             ##change to 320X240
+
 '''
 cap.set(propId,value)
 propId可以是0到46之間的任何数，每一個數代表一个個屬性，自己可以嘗試一下
