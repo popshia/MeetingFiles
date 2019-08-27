@@ -22,7 +22,7 @@ cap.set(propId,value)
 propId可以是0到46之間的任何数，每一個數代表一个個屬性，自己可以嘗試一下
 '''
 
-while ():
+while 1:
 	# Take each frame
 	_, frame = cap.read()
 	frame = cv2.flip(frame, 1)  # 0:inves up/down 1:mirror (right/left)  -1:inves up/down ,right/left
@@ -70,7 +70,7 @@ while ():
 	"""
 
 	# =================================
-	contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+	img2, contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 	# 版本問題原本cv2.findContours會回傳三個參數但是較新版本只回兩個
 
 	cx = np.zeros(len(contours))
