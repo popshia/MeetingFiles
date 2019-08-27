@@ -31,15 +31,15 @@ while ():
 	frame2 = frame.copy()
 	frame = cv2.GaussianBlur(frame, (77, 77), 0)
 
-    '''
+	"""
 	cv2.GaussianBlur(src, kSize, sigmaX[, dst[, sigmaY[, borderType]]])  
 	src: 影象矩陣 
 	kSize: 濾波視窗尺寸 ，高斯卷積大小且寬高均為奇數但可以不相等
 	sigmaX: 水平方向上的標準差
 	sigmaY: 垂直方向的標準差預設為0表示與水平方向相同
 	borderType: 邊界填充型別
-	'''
-
+	
+	"""
 	hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 	# define range of green color in HSV
 	lower_green = np.array([60, 50, 50])
@@ -47,11 +47,11 @@ while ():
 	# Threshold the HSV image to get only green colors
 	mask = cv2.inRange(hsv, lower_green, upper_green)
 
-	'''
+	"""
 	hsv指的是原圖
 	lower_green指的是圖像中低於這個lower_green的值，圖像值變為0
 	upper_green指的是圖像中高於這個upper_green的值，圖像值變為0
-	'''
+    """
 
 	mask_org = mask.copy()
 
@@ -59,7 +59,7 @@ while ():
 	res = cv2.bitwise_and(frame, frame, mask=mask)
 	# 不知道mask = mask意思
 
-	'''
+	"""
 	cv2.bitwise_and(src1, src2[, dst[, mask]])
 	bitwise_and是對二進位制資料進行“與”操作，即對影象（灰度影象或彩色影象均可）每個畫素值進行二進位制
 	src1 – first input array or a scalar.
@@ -67,9 +67,9 @@ while ():
 	src – single input array.
 	dst – output array that has the same size and type as the input arrays.
 	mask – optional operation mask, 8-bit single channel array, that specifies elements of the output array to be changed.
-	'''
+	"""
 
-	##=================================
+	# =================================
 	contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 	# 版本問題原本cv2.findContours會回傳三個參數但是較新版本只回兩個
 
@@ -137,6 +137,6 @@ while ():
 	# cv2.imshow('res',res)
 	k = cv2.waitKey(5) & 0xFF
 	if k == 27:
-        break
+		break
 
 cv2.destroyAllWindows()
