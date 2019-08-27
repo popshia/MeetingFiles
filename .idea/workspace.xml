@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20b78bb0-9d0b-4377-b8c2-da49cebf261c" name="Default Changelist" comment="" />
+    <list default="true" id="20b78bb0-9d0b-4377-b8c2-da49cebf261c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/popshia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarloEllipticalArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarloEllipticalArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonteCarloPi.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarloPi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectTracking.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,9 @@
   </component>
   <component name="ProjectId" id="1Pvl1ntGfeGF6vDZP5Gh4VLdm1w" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
