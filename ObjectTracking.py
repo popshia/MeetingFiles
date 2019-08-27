@@ -74,6 +74,7 @@ while(1):
  cx=np.zeros(len(contours))
  cy=np.zeros(len(contours))
  #global cxx,cyy,cxx_last,cyy_last,count,cxx_m,cyy_m
+ 
  #下面應該就是找圓跟畫圓，但是我看不太懂
  if len(contours)>0:
   cxx_last=cxx
