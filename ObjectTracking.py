@@ -51,7 +51,7 @@ while ():
 	hsv指的是原圖
 	lower_green指的是圖像中低於這個lower_green的值，圖像值變為0
 	upper_green指的是圖像中高於這個upper_green的值，圖像值變為0
-    """
+	"""
 
 	mask_org = mask.copy()
 
@@ -121,14 +121,13 @@ while ():
 			if count < (point - 1):
 				for j in range(0, (point - 1), 1):
 					if int(cxx_m[j + 1]) > 0:
-						cv2.line(res, (int(cxx_m[j]), int(cyy_m[j])), (int(cxx_m[j + 1]), int(cyy_m[j + 1])),
-								 (255, 0, 255), 3)
+						cv2.line(res, (int(cxx_m[j]), int(cyy_m[j])), (int(cxx_m[j + 1]), int(cyy_m[j + 1])), (255, 0, 255), 3)
 						cv2.circle(res, (int(cxx_m[j]), int(cyy_m[j])), 10, (0, 255, 0), 0)
-						cv2.line(frame, (int(cxx_m[j]), int(cyy_m[j])), (int(cxx_m[j + 1]), int(cyy_m[j + 1])),
-								 (255, 0, 255), 3)
+						cv2.line(frame, (int(cxx_m[j]), int(cyy_m[j])), (int(cxx_m[j + 1]), int(cyy_m[j + 1])), (255, 0, 255), 3)
 						cv2.circle(frame, (int(cxx_m[j]), int(cyy_m[j])), 10, (0, 255, 0), 0)
 						# print(j,cxx_m[j],cyy_m[j])
-	##=================================
+
+	# =================================
 
 	cv2.drawContours(res, contours, -1, (255, 0, 0), 2)
 	cv2.imshow('Frame', frame)
