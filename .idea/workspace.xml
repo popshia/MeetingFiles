@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b78bb0-9d0b-4377-b8c2-da49cebf261c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/popshia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/popshia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Useful-URLs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MonteCarloPi.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonteCarloPi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ObjectTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectTracking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566919170473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done.">
+      <created>1566919931488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566919931489</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +186,7 @@
     <MESSAGE value="update code style" />
     <MESSAGE value="fix opbjectTracking" />
     <MESSAGE value="update line thick" />
-    <option name="LAST_COMMIT_MESSAGE" value="update line thick" />
+    <MESSAGE value="done." />
+    <option name="LAST_COMMIT_MESSAGE" value="done." />
   </component>
 </project>

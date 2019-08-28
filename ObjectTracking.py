@@ -30,7 +30,6 @@ while 1:
 	# Convert BGR to HSV
 	frame2 = frame.copy()
 	frame = cv2.GaussianBlur(frame, (77, 77), 0)
-
 	"""
 	cv2.GaussianBlur(src, kSize, sigmaX[, dst[, sigmaY[, borderType]]])  
 	src: 影象矩陣 
@@ -58,7 +57,8 @@ while 1:
 	# Bitwise-AND mask and original image
 	res = cv2.bitwise_and(frame, frame, mask=mask)
 	# 不知道mask = mask意思
-
+	# cv2.imshow('res:', res)
+	# cv2.imshow('mask:', mask)
 	"""
 	cv2.bitwise_and(src1, src2[, dst[, mask]])
 	bitwise_and是對二進位制資料進行“與”操作，即對影象（灰度影象或彩色影象均可）每個畫素值進行二進位制
@@ -129,10 +129,10 @@ while 1:
 
 	# =================================
 
-	cv2.drawContours(res, contours, -1, (255, 0, 0), 2)
+	#cv2.drawContours(res, contours, -1, (255, 0, 0), 2)
 	cv2.imshow('Frame', frame)
-	# cv2.imshow('mask',mask_org)
-	cv2.imshow('contours:', res)
+	#cv2.imshow('mask',mask_org)
+	cv2.imshow('Contours(res):', res)
 	# cv2.imshow('res',res)
 	k = cv2.waitKey(5) & 0xFF
 	if k == 27:

@@ -1,0 +1,278 @@
+AI engineer的心得筆記
+https://mropengate.blogspot.com/2017/07/blog-post_33.html
+https://mropengate.blogspot.com/2016/12/q-learning-openai-gym-cart-pole-system.html
+https://mropengate.blogspot.com/2016/10/ai-ch165-tensorflow.html
+https://mropengate.blogspot.com/2015/06/ch15-4-neural-network.html
+
+Ashing的機器學習及深度學習心得筆記
+http://arbu00.blogspot.com 
+
+本課程的"官方投影片"-01
+https://drive.google.com/open?id=1cQEwyWgySVRGQsseASfUhCyKaWw0fZCQ
+
+介紹『機器學習』的七篇文章
+https://kopu.chat/2017/11/10/2012-deeplearning-nvidia-gpu/     
+
+Neural network實作系列
+https://ithelp.ithome.com.tw/tags/articles/neural%20network 
+
+Deep learning實作系列
+https://ithelp.ithome.com.tw/users/20112540/ironman/2064?sc=iThelpR  
+
+https://ithelp.ithome.com.tw/users/20103635/ironman/1298
+
+https://mropengate.blogspot.com/2018/06/yolo-yolov3.html
++ AlphaGo + AlphaZero
+
+「2018鐵人賽」的主題
+https://ithelp.ithome.com.tw/2018ironman/ai-and-ml 
+
+http://neuralnetworksanddeeplearning.com/
+
+-------------------------------------------------------------
+
+Ashing的機器學習及深度學習心得筆記
+http://arbu00.blogspot.com 
+
+2015年7月21日 星期二
+Arduino的程式編譯及上傳
+http://arbu00.blogspot.com/2015/07/arduino.html
+
+2015年9月10日 星期四
+Using Android cell phone and Arduino + BT to control LED ON/OFF
+http://arbu00.blogspot.com/2015/09/using-android-cell-phone-and-arduino-bt.html
+
+2015年9月13日 星期日
+Using Android Phone to control House's Lamp ON/OFF(用Android手機遙控家裡電燈開關)
+http://arbu00.blogspot.com/2015/09/using-android-phone-to-control-houses.html
+
+2015年10月5日 星期一
+Building the Android APP to control Arduino Smart Car (製作Android APP控制Arduino 智慧車)
+http://arbu00.blogspot.com/2015/10/building-android-app-to-control-arduino.html
+
+2015年10月4日 星期日
+Arduino Smart car with supersonic (Arduino 自動避障智慧小車)
+
+2015年10月31日 星期六
+Build the BT_SmartCar with 3DP & Arduino -Mechanism section(用3D列印和arduino製作藍芽智慧小車-機構部分)
+http://arbu00.blogspot.com/2015/10/build-btsmartcar-with-3dp-arduino.html
+
+2015年11月5日 星期四
+Build the BT_SmartCar with 3DP & Arduino -HW/SW section(用3D列印和arduino製作藍芽智慧小車-軟硬體部分)
+http://arbu00.blogspot.com/2015/11/build-btsmartcar-with-3dp-arduino-hwsw.html
+
+2015年11月21日 星期六
+Arduino BT_SmartCar_V2(藍芽智慧小車 V2.0)
+http://arbu00.blogspot.com/2015/11/arduino-btsmartcarv2-v20.html
+
+2016年4月17日 星期日
+Arduino Smart Car V3.0(手機藍芽遙控多功能自走車V3.0)
+http://arbu00.blogspot.com/2016/04/arduino-smart-car-v30v30.html
+
+2016年5月14日 星期六
+How to install Ubuntu Mate 16.04 in Raspbarry Pi 3(如何在Raspbarry pi 3安裝Ubuntu 16.04)
+http://arbu00.blogspot.com/2016/05/how-to-install-ubuntu-mate-1604-in.html
+
+2016年5月14日 星期六
+How to install SSH,WinSCP and VNC in Raspbarry pi 3(如何在Raspbarry pi 3安裝SSH,WinSCP,VNC)
+http://arbu00.blogspot.com/2016/05/how-to-install-sshwinscp-and-vnc-in.html
+
+2016年5月23日 星期一
+How to install OPENCV in Raspbarry pi 3.(如何在樹梅派上安裝OPENCV)
+http://arbu00.blogspot.com/2016/05/how-to-install-opencv-in-raspbarry-pi.html
+
+2016年7月21日 星期四
+使用python與arduino連接控制LED
+http://arbu00.blogspot.com/2016/07/pythonarduinoled.html
+
+2016年7月26日 星期二
+使用python與arduino連接控制LED之GUI圖形介面
+
+2016年7月29日 星期五
+使用Python透過Bluetooth與Arduino連結
+
+2016年9月24日 星期六
+使用中文語音下令機器人去控制家裡的電燈
+http://arbu00.blogspot.com/2016/09/blog-post.html
+
+2016年10月19日 星期三
+OPENCV(1 )--How to install OPENCV in Python
+http://arbu00.blogspot.com/2016/10/opencv1-how-to-install-opencv-in-python.html
+
+2016年10月21日 星期五
+OPENCV(2)--Capture Video from Camera
+http://arbu00.blogspot.com/2016/10/opencv2-capture-video-from-camera.html
+
+2016年10月22日 星期六
+OPENCV(3)--Matplotlib pyplot basic function
+http://arbu00.blogspot.com/2016/10/opencv3-matplotlib-pyplot-bassic.html
+
+2016年10月27日 星期四
+OPENCV(4)--Grayscale,Binarization,Threshole(灰階化,二值化,閥值)
+http://arbu00.blogspot.com/2016/10/opencv4-grayscalebinarizationthreshole.html
+
+2016年10月27日 星期四
+OPENCV(5)--Drawing
+http://arbu00.blogspot.com/2016/10/opencv5-drawing.html
+
+2016年11月1日 星期二
+OPENCV(6)--Trackbar(軌道桿)
+http://arbu00.blogspot.com/2016/11/opencv6-trackbar.html
+
+2016年11月5日 星期六
+人工神經網路(1)--使用Python實作perceptron(感知器)
+http://arbu00.blogspot.com/2016/11/1-pythonperceptron.html
+
+2016年11月6日 星期日
+人工神經網路(2)--使用Python實作後向傳遞神經網路演算法(Backprogation artificial neature network)
+http://arbu00.blogspot.com/2016/11/2-pythonbackprogation-artificial.html
+
+2016年11月6日 星期日
+OPENCV(7)--2D Convolution ，Image Filtering and Blurring (旋積，濾波與模糊)
+http://arbu00.blogspot.com/2016/11/opencv7-2d-convolution-image-filtering.html
+
+2016年11月14日 星期一
+OPENCV(8)--Histogram & Histograms Equalization(長條圖與長條圖均衡化)
+http://arbu00.blogspot.com/2016/11/opencv8-histogram-histograms.html
+
+2016年11月16日 星期三
+OPENCV(9)--Image Gradients(圖像梯度)
+http://arbu00.blogspot.com/2016/11/opencv9-image-gradients.html
+
+2016年11月17日 星期四
+OPENCV(10)--Canny Edge Detection(Canny邊緣檢測)
+http://arbu00.blogspot.com/2016/11/opencv10-canny-edge-detectioncanny.html
+
+2016年11月17日 星期四
+機器學習(1)--使用OPENCV KNN實作手寫辨識
+http://arbu00.blogspot.com/2016/11/1-opencv-knn.html
+
+2016年11月28日 星期一
+機器學習(2)--使用OPENCV SVM實作手寫辨識
+http://arbu00.blogspot.com/2016/11/2-opencv-svm.html
+
+2016年12月1日 星期四
+OPENCV(11)--contours and convex hull(輪廓與凸包)
+http://arbu00.blogspot.com/2016/12/opencv11-contours-and-convex-hull.html
+
+2016年12月18日 星期日
+OPENCV(12)--追蹤顏色物件並利用它來做打磚塊遊戲
+http://arbu00.blogspot.com/2016/12/opencv12.htmls
+
+2017年1月7日 星期六
+深度學習(1)-如何在windows安裝Theano +Keras +Tensorflow並使用GPU加速訓練神經網路
+http://arbu00.blogspot.com/2017/01/1-windowstheano-keras-gpu.html
+
+2017年2月10日 星期五
+演算法(2)--使用Numpy.bincount來實作簡單的桶子排序法
+http://arbu00.blogspot.com/2017/02/2-numpybincount.html
+
+2017年2月14日 星期二
+機器學習(3)--適應線性神經元與梯度下降法(Adaline neuron and Gradient descent)
+http://arbu00.blogspot.com/2017/02/3-adaline-neuron-and-gradient-descent.html
+
+2017年2月15日 星期三
+機器學習(4)--資料標準常態化與隨機梯度下降法( standardization & Stochastic Gradient descent)
+http://arbu00.blogspot.com/2017/02/4-standardization-stochastic-gradient.html
+
+2017年2月18日 星期六
+機器學習(5)--邏輯斯迴歸，過度適合與正規化( Logistic regression，overfitting and regularization)
+http://arbu00.blogspot.com/2017/02/5-logistic-regressionoverfitting-and.html
+
+2017年2月23日 星期四
+機器學習(6)--主成分分析(Principal component analysis，PCA)
+http://arbu00.blogspot.com/2017/02/6-principal-component-analysispca.html
+
+2017年2月25日 星期六
+機器學習(7)--利用核主成分分析(Kernel PCA)處理非線性對應
+http://arbu00.blogspot.com/2017/02/7-kernel-pca.html
+
+2017年3月11日 星期六
+機器學習(8)--實作多層感知器(Multilayer Perceptron，MLP)手寫數字辨識
+http://arbu00.blogspot.com/2017/03/8-multilayer-perceptronmlp.html
+
+2017年3月12日 星期日
+機器學習(9)--大數據競賽平台Kaggle入門，練習手寫數字辨識
+http://arbu00.blogspot.com/2017/03/9-kaggle.html
+
+2017年3月26日 星期日
+深度學習(2)--使用Tensorflow實作卷積神經網路(Convolutional neural network，CNN)
+http://arbu00.blogspot.com/2017/03/2-tensorflowconvolutional-neural.html
+
+2017年5月7日 星期日
+深度學習(3)--循環神經網絡(RNN, Recurrent Neural Networks)
+http://arbu00.blogspot.com/2017/05/3-rnn-recurrent-neural-networks.html
+
+2017年5月20日 星期六
+深度學習(4)--使用Tensorflow實現類Lenet5手寫數字辨識
+http://arbu00.blogspot.com/2017/05/4-tensorflowlenet5.html
+
+2017年7月3日 星期一
+深度學習(5)--使用Tensorflow實現類AlexNet手寫數字辨識
+http://arbu00.blogspot.com/2017/07/5-tensorflowalexnet.html
+
+2017年8月25日 星期五
+深度學習(6)--使用Tensorflow實現類AlexNet model 訓練Cifar10數據集
+http://arbu00.blogspot.com/2017/08/6-tensorflowalexnet-model-cifar10.html
+
+2018年1月26日 星期五
+機器學習(10)--訊息量、資訊熵(Information Entropy)
+http://arbu00.blogspot.com/2018/01/10.html
+
+2018年3月25日 星期日
+深度學習(7)--使用Tensorflow實現類VGG model 訓練Cifar10數據集
+http://arbu00.blogspot.com/2018/03/7-tensorflowvgg-model-cifar10.html
+
+2018年8月10日 星期五
+Python(3)--Python小遊戲_黑白棋
+http://arbu00.blogspot.com/2018/08/python3-python.html
+
+2018年10月10日 星期三
+深度學習(8)--使用Tensorflow Object Detection API 實現物件自動辨識
+http://arbu00.blogspot.com/2018/10/8-tensorflow-object-detection-api.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
