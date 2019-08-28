@@ -173,7 +173,7 @@ box = cv2.boxPoints(rect)
 box = np.int0(box)
 cv2.drawContours(originalImage, [box], 0, (0, 0, 255), 5)
 
-# 擬合橢圓的最小外接矩形
+# 擬合橢圓的最小外接橢圓形
 ellipse = cv2.fitEllipse(cntb)
 '''
 fitEllipse回傳5個值
