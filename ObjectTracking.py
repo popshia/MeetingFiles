@@ -55,10 +55,9 @@ while 1:
 
 	# Bitwise-AND mask and original image
 	res = cv2.bitwise_and(frame, frame, mask=mask)
-	# 不知道mask = mask意思
 	"""
 	cv2.bitwise_and(src1, src2[, dst[, mask]])
-	bitwise_and是對二進位制資料進行“與”操作，即對影象（灰度影象或彩色影象均可）每個畫素值進行二進位制
+	bitwise_and是對二進位制資料進行“AND”操作，即對影象（灰度影象或彩色影象均可）每個畫素值進行二進位制
 	src1 – first input array or a scalar.
 	src2 – second input array or a scalar.
 	src – single input array.
