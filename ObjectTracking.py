@@ -30,7 +30,6 @@ while 1:
 	# Convert BGR to HSV
 	frame2 = frame.copy()
 	frame = cv2.GaussianBlur(frame, (77, 77), 0)
-
 	"""
 	cv2.GaussianBlur(src, kSize, sigmaX[, dst[, sigmaY[, borderType]]])  
 	src: 影象矩陣 
@@ -38,15 +37,14 @@ while 1:
 	sigmaX: 水平方向上的標準差
 	sigmaY: 垂直方向的標準差預設為0表示與水平方向相同
 	borderType: 邊界填充型別
-	
 	"""
+	
 	hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 	# define range of green color in HSV
 	lower_green = np.array([60, 50, 50])
 	upper_green = np.array([80, 255, 255])
 	# Threshold the HSV image to get only green colors
 	mask = cv2.inRange(hsv, lower_green, upper_green)
-
 	"""
 	hsv指的是原圖
 	lower_green指的是圖像中低於這個lower_green的值，圖像值變為0
@@ -58,7 +56,6 @@ while 1:
 	# Bitwise-AND mask and original image
 	res = cv2.bitwise_and(frame, frame, mask=mask)
 	# 不知道mask = mask意思
-
 	"""
 	cv2.bitwise_and(src1, src2[, dst[, mask]])
 	bitwise_and是對二進位制資料進行“與”操作，即對影象（灰度影象或彩色影象均可）每個畫素值進行二進位制
